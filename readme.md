@@ -101,7 +101,7 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		System check identified no issues (0 silenced).
 
 		You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
-		
+
 		Run 'python manage.py migrate' to apply them.
 		June 24, 2021 - 11:40:50
 		Django version 3.1, using settings 'config.settings'
@@ -111,6 +111,22 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   readme.md
 
 
+### 4. DATABASE
+
+#### 4.1 Membuat postgres database
+
+		λ psql
+		psql (13.0)
+		WARNING: Console code page (437) differs from Windows code page (1252)
+		         8-bit characters might not work correctly. See psql reference
+		         page "Notes for Windows users" for details.
+		Type "help" for help.
+
+		hp=# CREATE DATABASE django_code4startup_fastparcel_psql;
+		CREATE DATABASE
+		hp=#
+
+        modified:   readme.md
 
 
 
