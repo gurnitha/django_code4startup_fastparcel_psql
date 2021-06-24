@@ -201,8 +201,19 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
        modified:   readme.md
 
+#### 5.2 Membuat superuser
 
+		(venv3931) λ python manage.py createsuperuser
+		Username (leave blank to use 'hp'): ing
+		Email address: ingafter60@outlook.com
+		Password:
+		Password (again):
+		The password is too similar to the username.
+		This password is too short. It must contain at least 8 characters.
+		Bypass password validation and create user anyway? [y/N]: y
+		Superuser created successfully.
 
+        modified:   readme.md
 
 
 
