@@ -47,9 +47,12 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		    ├── Scripts
 		    └── pyvenv.cfg
 
+### 3. DJANGO APP
 
+#### 3.1 Membuat folder untuk semua Django App dgn nama 'apps'
 
-
+		(venv3931) λ mkdir apps
+        modified:   readme.md
 
 
 
