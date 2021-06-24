@@ -151,9 +151,11 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         new file:   config/.env
         modified:   readme.md
 
+#### 4.5 Membubuhkan SECRET_KEY django proyek dan kredensial database pada .env file 
 
-
-
+        modified:   .gitignore
+        modified:   config/.env
+        modified:   readme.md
 
 
 
