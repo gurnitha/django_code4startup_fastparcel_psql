@@ -271,3 +271,13 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         new file:   apps/core/templates/base.html
         modified:   apps/core/templates/core/home.html
         modified:   readme.md
+
+
+### 7. GIT
+
+#### 7.1 Buat requirements.txt file dan modifikasi file .gitignore
+
+        (venv3931) λ pip freeze > requirements.txt
+        modified:   .gitignore
+        modified:   readme.md
+        new file:   requirements.txt        
