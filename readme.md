@@ -27,9 +27,25 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		(venv3931) λ python -m pip install --upgrade pip
         modified:   readme.md
 
+### 2. DJANGO PROYEK
 
-
-
+#### 2.1 Inisiasi django proyek dgn nama 'config'
+		.
+		├── config
+		│   ├── __init__.py
+		│   ├── __pycache__
+		│   ├── asgi.py
+		│   ├── settings.py
+		│   ├── urls.py
+		│   └── wsgi.py
+		├── db.sqlite3
+		├── manage.py
+		├── readme.md
+		└── venv3931
+		    ├── Include
+		    ├── Lib
+		    ├── Scripts
+		    └── pyvenv.cfg
 
 
 
