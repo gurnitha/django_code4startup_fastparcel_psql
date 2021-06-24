@@ -222,7 +222,12 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 #### 5.4 Re-modifikasi readme.md file
 
 
+### 6. MVT: Model, Views and Templates + Urls
 
+#### 6.1 Membuat Home Page Part 1/3: Membuat view function (controller and method or action)
+
+        modified:   apps/core/views.py
+        modified:   readme.md
 
 
 
