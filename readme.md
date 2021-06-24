@@ -63,11 +63,24 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   readme.md
 
+#### 3.5 Membuat django app dengan 'core' di dalam folder 'apps'
 
+		(venv3931) λ python manage.py startapp core apps/core
 
-
-
-
+		.
+		├── apps
+		│   └── core
+		│       ├── __init__.py
+		│       ├── admin.py
+		│       ├── apps.py
+		│       ├── migrations
+		│       ├── models.py
+		│       ├── tests.py
+		│       └── views.py
+		├── config
+		...
+		└── venv3931
+        modified:   readme.md
 
 
 
