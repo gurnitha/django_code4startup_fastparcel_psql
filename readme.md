@@ -157,9 +157,12 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   config/.env
         modified:   readme.md
 
+#### 4.6 Mengkoneksi proyek dgn database berdasarkan kredensial pada .env file 
 
-
-
+		(venv3931) λ python -m pip install psycopg2
+        modified:   config/settings.py
+        modified:   readme.md
+		
 
 
 
