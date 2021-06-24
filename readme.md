@@ -287,3 +287,9 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         new file:   apps/core/templates/registration/sign_in.html
         modified:   config/urls.py
         modified:   readme.md
+
+#### 7.3 Log In form Part 2/4: Menngunakan bootstrap untuk login form dan didasarkan pada form variable
+
+        modified:   apps/core/templates/registration/sign_in.html
+        modified:   readme.md
+
