@@ -54,9 +54,14 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		(venv3931) λ mkdir apps
         modified:   readme.md
 
+#### 3.4 Membuat folder dengan nama 'core' di dalam folder 'apps'
 
+		(venv3931) λ mkdir apps\core
+		.
+		├── apps
+		│   └── core
 
-
+        modified:   readme.md
 
 
 
