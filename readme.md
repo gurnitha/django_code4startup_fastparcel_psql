@@ -250,9 +250,10 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   config/settings.py
         modified:   readme.md
 
+#### 6.6 Home Page: Membuat navbar dan footer
 
-
-
+        modified:   apps/core/templates/core/home.html
+        modified:   readme.md
 
 
 
