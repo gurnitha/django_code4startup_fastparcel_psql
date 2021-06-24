@@ -128,9 +128,18 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   readme.md
 
+#### 4.2 Install django-environ 
 
+		(venv3931) λ pip install django-environ
+		Collecting django-environ
+		  Using cached django_environ-0.4.5-py2.py3-none-any.whl (21 kB)
+		Installing collected packages: django-environ
+		Successfully installed django-environ-0.4.5
 
+		NOTE:
+		.Django-environ memungkinkan Anda menggunakan variabel lingkungan yang diilhami 12faktor untuk mengonfigurasi aplikasi Django Anda.
 
+        modified:   readme.md
 
 
 
