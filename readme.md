@@ -266,6 +266,8 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   config/urls.py
         modified:   readme.md 
 
+#### 6.9 Modifikasi Home page dgn menggunakan template inheritance
 
-
-
+        new file:   apps/core/templates/base.html
+        modified:   apps/core/templates/core/home.html
+        modified:   readme.md
