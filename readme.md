@@ -302,3 +302,8 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   apps/core/templates/registration/sign_in.html
         modified:   readme.md
+
+#### 7.6 Redirect user to Home Page after logged in
+
+        modified:   config/settings.py
+        modified:   readme.md
