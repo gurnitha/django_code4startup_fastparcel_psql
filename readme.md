@@ -297,3 +297,8 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   apps/core/templates/registration/sign_in.html
         modified:   readme.md
+
+#### 7.5 Log In form Part 4/4: Kustomisasi login form dgn menampilkan email field dan bukan username yg default dalam django
+
+        modified:   apps/core/templates/registration/sign_in.html
+        modified:   readme.md

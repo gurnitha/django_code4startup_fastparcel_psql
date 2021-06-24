@@ -11,20 +11,23 @@
 				<div class="card-body">
 
 					<h4 class="text-center text-uppercase mb-3">
-						
-						{# http://127.0.0.1:8000/sign_in/next=customer #}
-						{% if request.GET.next != '/courier/' %}
-							Customer
-						{# http://127.0.0.1:8000/sign_in/next=courier #}
-						{% else %}
-							Courier	
-						{% endif %}
-						<b>Customer</b>
+						<b>
+							{# http://127.0.0.1:8000/sign_in/next=customer #}
+							{% if request.GET.next != '/courier/' %}
+								Customer
+							{# http://127.0.0.1:8000/sign_in/next=courier #}
+							{% else %}
+								Courier	
+							{% endif %}
+						</b>
 					</h4>
 
 					<form method="POST">
 						{% csrf_token %}
-						{% bootstrap_form form %}
+						{% bootstrap_form_errors form %}
+						{% bootstrap_label "Email" %}
+						{% bootstrap_field form.username show_label=False placeholder="Email" %}
+						{% bootstrap_field form.password %}
 						<button class="btn btn-warning btn-block">Sign In</button>
 					</form>
 				</div>
