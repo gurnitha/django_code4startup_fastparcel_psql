@@ -11,20 +11,20 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 #### 1.2 Membuat remote repository di Github
 
-		https://github.com/gurnitha/django_code4startup_fastparcel_psql
+       https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   readme.md		
 
 #### 1.3 Membuat virtual environment
 
-		λ python -m venv venv3931
+       λ python -m venv venv3931
         modified:   .gitignore
         modified:   readme.md
 
 #### 1.4 Menginstall django v3.1
 
-		λ venv3931\scripts\activate
-		(venv3931) λ python -m pip install django==3.1
-		(venv3931) λ python -m pip install --upgrade pip
+       λ venv3931\scripts\activate
+       (venv3931) λ python -m pip install django==3.1
+       (venv3931) λ python -m pip install --upgrade pip
         modified:   readme.md
 
 ### 2. DJANGO PROYEK
@@ -51,7 +51,7 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 #### 3.1 Membuat folder untuk semua Django App dgn nama 'apps'
 
-		(venv3931) λ mkdir apps
+       (venv3931) λ mkdir apps
         modified:   readme.md
 
 #### 3.4 Membuat folder dengan nama 'core' di dalam folder 'apps'
@@ -94,19 +94,20 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 #### 3.8 Jalankan server untuk testing
 
-		(venv3931) λ python manage.py runserver
-		Watching for file changes with StatReloader
-		Performing system checks...
+       (venv3931) λ python manage.py runserver
+       Watching for file changes with StatReloader
+       Performing system checks...
 
-		System check identified no issues (0 silenced).
+       System check identified no issues (0 silenced).
 
-		You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+       You have 18 unapplied migration(s). Your project may not work properly until       
+       you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 
-		Run 'python manage.py migrate' to apply them.
-		June 24, 2021 - 11:40:50
-		Django version 3.1, using settings 'config.settings'
-		Starting development server at http://127.0.0.1:8000/
-		Quit the server with CTRL-BREAK.
+       Run 'python manage.py migrate' to apply them.
+       June 24, 2021 - 11:40:50
+       Django version 3.1, using settings 'config.settings'
+       Starting development server at http://127.0.0.1:8000/
+       Quit the server with CTRL-BREAK.
 
         modified:   readme.md
 
@@ -130,14 +131,14 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 #### 4.2 Install django-environ 
 
-		(venv3931) λ pip install django-environ
-		Collecting django-environ
-		  Using cached django_environ-0.4.5-py2.py3-none-any.whl (21 kB)
-		Installing collected packages: django-environ
-		Successfully installed django-environ-0.4.5
+       (venv3931) λ pip install django-environ
+       Collecting django-environ
+       Using cached django_environ-0.4.5-py2.py3-none-any.whl (21 kB)
+       Installing collected packages: django-environ
+       Successfully installed django-environ-0.4.5
 
-		NOTE:
-		.Django-environ memungkinkan Anda menggunakan variabel lingkungan yang diilhami 12faktor untuk mengonfigurasi aplikasi Django Anda.
+       NOTE:
+       .Django-environ memungkinkan Anda menggunakan variabel lingkungan yang diilham 12faktor untuk mengonfigurasi aplikasi Django Anda.
 
         modified:   readme.md
 
@@ -159,25 +160,25 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 #### 4.6 Mengkoneksi proyek dgn database berdasarkan kredensial pada .env file 
 
-		(venv3931) λ python -m pip install psycopg2
+       (venv3931) λ python -m pip install psycopg2
         modified:   config/settings.py
         modified:   readme.md
 
 #### 4.7 Jalankan ulang server untuk menguji
 
-		(venv3931) λ python manage.py runserver
-		Watching for file changes with StatReloader
-		Performing system checks...
+       (venv3931) λ python manage.py runserver
+       Watching for file changes with StatReloader
+       Performing system checks...
 
-		System check identified no issues (0 silenced).
+       System check identified no issues (0 silenced).
 
-		You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+       You have 18 unapplied migration(s). Your project may not work properly unti       you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 
-		Run 'python manage.py migrate' to apply them.
-		June 24, 2021 - 12:13:56
-		Django version 3.1, using settings 'config.settings'
-		Starting development server at http://127.0.0.1:8000/
-		Quit the server with CTRL-BREAK.
+       Run 'python manage.py migrate' to apply them.
+       June 24, 2021 - 12:13:56
+       Django version 3.1, using settings 'config.settings'
+       Starting development server at http://127.0.0.1:8000/
+       Quit the server with CTRL-BREAK.
 
         modified:   readme.md
 
@@ -186,36 +187,36 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 #### 5.1 Mengaplikasikan default django apps pada database untuk membuat tabel-tabel
 
-		(venv3931) λ python manage.py makemigrations
-		No changes detected
+       (venv3931) λ python manage.py makemigrations
+       No changes detected
 
-		E:\workspace\django\Code4Startup\django_code4startup_fastparcel_psql (master)
-		(venv3931) λ python manage.py migrate
-		Operations to perform:
-		  Apply all migrations: admin, auth, contenttypes, sessions
-		Running migrations:
-		  Applying contenttypes.0001_initial... OK
-		  Applying auth.0001_initial... OK
-		...
-		  Applying sessions.0001_initial... OK
+       E:\workspace\django\Code4Startup\django_code4startup_fastparcel_psql (master)
+       (venv3931) λ python manage.py migrate
+       Operations to perform:
+       Apply all migrations: admin, auth, contenttypes, sessions
+       Running migrations:
+       Applying contenttypes.0001_initial... OK
+       Applying auth.0001_initial... OK
+       ...
+       Applying sessions.0001_initial... OK
 
        modified:   readme.md
 
 #### 5.2 Membuat superuser
 
-		(venv3931) λ python manage.py createsuperuser
-		Username (leave blank to use 'hp'): ing
-		Email address: ingafter60@outlook.com
-		Password:
-		Password (again):
-		The password is too similar to the username.
-		This password is too short. It must contain at least 8 characters.
-		Bypass password validation and create user anyway? [y/N]: y
-		Superuser created successfully.
+       (venv3931) λ python manage.py createsuperuser
+       Username (leave blank to use 'hp'): ing
+       Email address: ingafter60@outlook.com
+       Password:
+       Password (again):
+       The password is too similar to the username.
+       This password is too short. It must contain at least 8 characters.
+       Bypass password validation and create user anyway? [y/N]: y
+       Superuser created successfully.
 
         modified:   readme.md
 
-
+#### 5.3 Modifikasi readme.md file
 
 
 
