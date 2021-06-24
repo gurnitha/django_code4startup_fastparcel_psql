@@ -239,7 +239,11 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         new file:   apps/core/templates/core/home.html
         modified:   readme.md
 
+#### 6.4 Menginstall django-bootstrap
 
+		(venv3931) λ python -m pip install django-bootstrap4==2.3.1
+		...
+		django-bootstrap4-2.3.1 soupsieve-2.2.1
 
 
 
