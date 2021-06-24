@@ -245,9 +245,10 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		...
 		django-bootstrap4-2.3.1 soupsieve-2.2.1
 
+#### 6.5 Meregistrasi bootstrap4 pada proyek 'core/settings.py'
 
-
-
+        modified:   config/settings.py
+        modified:   readme.md
 
 
 

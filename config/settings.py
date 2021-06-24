@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 
     # First party apps
     'apps.core.apps.CoreConfig',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
