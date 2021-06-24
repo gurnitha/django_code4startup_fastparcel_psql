@@ -280,4 +280,10 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         (venv3931) λ pip freeze > requirements.txt
         modified:   .gitignore
         modified:   readme.md
-        new file:   requirements.txt        
+        new file:   requirements.txt 
+
+#### 7.2 Log In form Part 1/4: Display default login form variable from LoginView
+
+        new file:   apps/core/templates/registration/sign_in.html
+        modified:   config/urls.py
+        modified:   readme.md
