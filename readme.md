@@ -82,6 +82,11 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		└── venv3931
         modified:   readme.md
 
+#### 3.6 Memodifikasi file core/apps.py agar django app 'core' dapat diakses
+
+        modified:   apps/core/apps.py
+        modified:   readme.md
+
 
 
 
