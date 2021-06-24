@@ -20,7 +20,12 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   .gitignore
         modified:   readme.md
 
+#### 1.4 Menginstall django v3.1
 
+		λ venv3931\scripts\activate
+		(venv3931) λ python -m pip install django==3.1
+		(venv3931) λ python -m pip install --upgrade pip
+        modified:   readme.md
 
 
 
@@ -115,5 +120,3 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 
 
-
-		
