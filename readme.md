@@ -172,7 +172,7 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 		System check identified no issues (0 silenced).
 
 		You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
-		
+
 		Run 'python manage.py migrate' to apply them.
 		June 24, 2021 - 12:13:56
 		Django version 3.1, using settings 'config.settings'
@@ -182,10 +182,24 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   readme.md
 
 
+### 5. DJANGO ADMIN
 
+#### 5.1 Mengaplikasikan default django apps pada database untuk membuat tabel-tabel
 
+		(venv3931) λ python manage.py makemigrations
+		No changes detected
 
+		E:\workspace\django\Code4Startup\django_code4startup_fastparcel_psql (master)
+		(venv3931) λ python manage.py migrate
+		Operations to perform:
+		  Apply all migrations: admin, auth, contenttypes, sessions
+		Running migrations:
+		  Applying contenttypes.0001_initial... OK
+		  Applying auth.0001_initial... OK
+		...
+		  Applying sessions.0001_initial... OK
 
+       modified:   readme.md
 
 
 
