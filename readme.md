@@ -293,3 +293,7 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   apps/core/templates/registration/sign_in.html
         modified:   readme.md
 
+#### 7.4 Log In form Part 3/4: Menambahkan kondisional untuk menampilkan form Customer atau Courier
+
+        modified:   apps/core/templates/registration/sign_in.html
+        modified:   readme.md

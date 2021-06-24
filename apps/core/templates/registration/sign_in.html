@@ -9,7 +9,16 @@
 		<div class="col-lg-4">
 			<div class="card">
 				<div class="card-body">
+
 					<h4 class="text-center text-uppercase mb-3">
+						
+						{# http://127.0.0.1:8000/sign_in/next=customer #}
+						{% if request.GET.next != '/courier/' %}
+							Customer
+						{# http://127.0.0.1:8000/sign_in/next=courier #}
+						{% else %}
+							Courier	
+						{% endif %}
 						<b>Customer</b>
 					</h4>
 
