@@ -146,9 +146,10 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   config/settings.py
         modified:   readme.md
 
+#### 4.4 Membuat .env file di dalam django proyek 'config/.env' 
 
-
-
+        new file:   config/.env
+        modified:   readme.md
 
 
 
