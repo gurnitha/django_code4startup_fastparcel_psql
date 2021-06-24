@@ -260,7 +260,11 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   apps/core/templates/core/home.html
         modified:   readme.md
 
+#### 6.8 Membuat view function dan path untuk halaman Customer dan Courier
 
+        modified:   apps/core/views.py
+        modified:   config/urls.py
+        modified:   readme.md 
 
 
 
