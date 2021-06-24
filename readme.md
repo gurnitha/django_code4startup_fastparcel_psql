@@ -141,10 +141,10 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   readme.md
 
+#### 4.3 Initialisasi environ pada django proyek config/settings.py
 
-
-
-
+        modified:   config/settings.py
+        modified:   readme.md
 
 
 
