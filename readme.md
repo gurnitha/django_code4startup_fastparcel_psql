@@ -87,7 +87,10 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   apps/core/apps.py
         modified:   readme.md
 
+#### 3.7 Meregistrasi django app 'core' pada django proyek 'config/settings.py'
 
+        modified:   config/settings.py
+        modified:   readme.md
 
 
 
