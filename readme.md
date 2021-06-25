@@ -280,57 +280,59 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
 ### 8. USER AUTHENTICATION: LOGIN PROSES
 
-#### 8.1 Log In form Part 1/4: Display default login form variable from LoginView
+        #### 8.1 Log In form Part 1/4: Display default login form variable from LoginView
 
-        new file:   apps/core/templates/registration/sign_in.html
-        modified:   config/urls.py
-        modified:   readme.md
+                new file:   apps/core/templates/registration/sign_in.html
+                modified:   config/urls.py
+                modified:   readme.md
 
-#### 8.2 Log In form Part 2/4: Menngunakan bootstrap untuk login form dan didasarkan pada form variable
+        #### 8.2 Log In form Part 2/4: Menngunakan bootstrap untuk login form dan didasarkan pada form variable
 
-        modified:   apps/core/templates/registration/sign_in.html
-        modified:   readme.md
+                modified:   apps/core/templates/registration/sign_in.html
+                modified:   readme.md
 
-#### 8.3 Log In form Part 3/4: Menambahkan kondisional untuk menampilkan form Customer atau Courier
+        #### 8.3 Log In form Part 3/4: Menambahkan kondisional untuk menampilkan form Customer atau Courier
 
-        modified:   apps/core/templates/registration/sign_in.html
-        modified:   readme.md
+                modified:   apps/core/templates/registration/sign_in.html
+                modified:   readme.md
 
-#### 8.4 Log In form Part 4/4: Kustomisasi login form dgn menampilkan email field dan bukan username yg default dalam django
+        #### 8.4 Log In form Part 4/4: Kustomisasi login form dgn menampilkan email field dan bukan username yg default dalam django
 
-        modified:   apps/core/templates/registration/sign_in.html
-        modified:   readme.md
+                modified:   apps/core/templates/registration/sign_in.html
+                modified:   readme.md
 
-#### 8.5 Redirect user to Home Page after logged in
+        #### 8.5 Redirect user to Home Page after logged in
 
-        modified:   config/settings.py
-        modified:   readme.md
+                modified:   config/settings.py
+                modified:   readme.md
 
-#### 8.6 Membuat dan menampilkan Sign Out menu pada navbar
+        #### 8.6 Membuat dan menampilkan Sign Out menu pada navbar
 
-        modified:   apps/core/templates/base.html
-        modified:   readme.md
-
-
-#### 8.7 Menampilkan menu Customer dan Courier jika user tidak log in atau jika user logged out dan modifiksi path
+                modified:   apps/core/templates/base.html
+                modified:   readme.md
 
 
-        modified:   apps/core/templates/base.html
-        modified:   config/urls.py
-        modified:   readme.md
+        #### 8.7 Menampilkan menu Customer dan Courier jika user tidak log in atau jika user logged out dan modifiksi path
 
-#### 8.8 Membatasi akses user untuk masuk ke halaman tertentu
 
-        modified:   apps/core/views.py
-        modified:   readme.md
+                modified:   apps/core/templates/base.html
+                modified:   config/urls.py
+                modified:   readme.md
 
-        NOTE:
+        #### 8.8 Membatasi akses user untuk masuk ke halaman tertentu
 
-        .Setiap User hrs login untuk bisa mengakses halaman
-         Customer atau Courier.
-        .Jika user login sbg customer, maka stlh login ia
-         akan ditampilkan halaman customer.
-        .Jika user login sbg courier, maka stlh login ia
-         akan ditampilkan halaman courier. 
+                modified:   apps/core/views.py
+                modified:   readme.md
 
-#### 8.9 Modifikasi readme.md file         
+                NOTE:
+
+                .Setiap User hrs login untuk bisa mengakses halaman
+                 Customer atau Courier.
+                .Jika user login sbg customer, maka stlh login ia
+                 akan ditampilkan halaman customer.
+                .Jika user login sbg courier, maka stlh login ia
+                 akan ditampilkan halaman courier. 
+
+        #### 8.9 Modifikasi readme.md file
+
+        #### 8.10 Re-Modifikasi readme.md file         
