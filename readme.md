@@ -307,3 +307,8 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   config/settings.py
         modified:   readme.md
+
+#### 7.7 Membuat dan menampilkan Sign Out menu pada navbar
+
+        modified:   apps/core/templates/base.html
+        modified:   readme.md

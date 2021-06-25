@@ -15,8 +15,10 @@
 </head>
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+	<nav class="navbar {% if not request.user.is_authenticated %} navbar-expand-lg {% endif %} navbar-light bg-warning">
 		<a class="navbar-brand" href="#">Fast Parcel</a>
+
+		{% if not request.user.is_authenticated %}
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		 	<span class="navbar-toggler-icon"></span>
@@ -32,6 +34,15 @@
 	        </li>
 	      </ul>
 	    </div>
+		{% else %}
+		<form class="form-inline">
+			<span class="mr-4">{{ request.user.get_full_name|title}} </span>
+			<a href="/sign-out" class="btn btn-outline-dark">Sign Out</a>
+		</form>
+
+		{% endif %}
+
+
 	</nav>
 	<!-- Navbar End-->
 
