@@ -320,3 +320,17 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
         modified:   apps/core/templates/base.html
         modified:   config/urls.py
         modified:   readme.md
+
+#### 7.9 Membatasi akses user untuk masuk ke halaman tertentu
+
+        modified:   apps/core/views.py
+        modified:   readme.md
+
+        NOTE:
+
+        .Setiap User hrs login untuk bisa mengakses halaman
+         Customer atau Courier.
+        .Jika user login sbg customer, maka stlh login ia
+         akan ditampilkan halaman customer.
+        .Jika user login sbg courier, maka stlh login ia
+         akan ditampilkan halaman courier. 
