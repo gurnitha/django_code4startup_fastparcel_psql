@@ -13,8 +13,8 @@ urlpatterns = [
     path('', views.home),
 
     # users
-    path('sign_in/', auth_views.LoginView.as_view(template_name="registration/sign_in.html")),
-    path('sign_out/', auth_views.LogoutView.as_view(next_page="/")),
+    path('sign-in/', auth_views.LoginView.as_view(template_name="registration/sign_in.html")),
+    path('sign-out/', auth_views.LogoutView.as_view(next_page="/")),
 
     path('customer/', views.customer_page),
     path('courier/', views.courier_page),

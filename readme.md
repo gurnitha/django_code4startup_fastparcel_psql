@@ -312,3 +312,11 @@ https://github.com/gurnitha/django_code4startup_fastparcel_psql
 
         modified:   apps/core/templates/base.html
         modified:   readme.md
+
+
+#### 7.8 Menampilkan menu Customer dan Courier jika user tidak log in atau jika user logged out dan modifiksi path
+
+
+        modified:   apps/core/templates/base.html
+        modified:   config/urls.py
+        modified:   readme.md
